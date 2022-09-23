@@ -1,0 +1,3225 @@
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+   .navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 11%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 40.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+
+.logo img{
+    height: 190px;
+    right:600px;
+    top: 30px;  
+    position: absolute;
+}
+
+.sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}    
+.home {
+    background-color: white;
+    height: 60px;
+    width: 100px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: rgba(27,61,108,1);
+}
+.home_1 {
+    position:absolute;
+	width: 35px;
+	left: 45px;
+	top: 10px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    }
+        #Global{
+	left: 150px;
+    top: 1580px;
+    position: absolute;
+	width: 350px;
+	height: 155px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 700px;
+    top: 1580px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 0px;
+	left: 400px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 250px;
+	color:rgba(27,61,108,1) ;
+}
+    #call2 {
+    top: 0px;
+	left: 500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}
+    
+ 
+    
+    
+ 
+}
+
+@media only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+  .navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 15.5%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 25.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+
+.logo img{
+    height: 190px;
+    right:555px;
+    top: 30px;  
+    position: absolute;
+}
+
+    .sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+} 
+.home {
+    background-color: white;
+    height: 60px;
+    width: 100px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill:  rgba(27,61,108,1);
+}
+.home_1 {
+    position:absolute;
+	width: 35px;
+	left: 45px;
+	top: 10px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+/*contact*/
+
+#ping{
+	left: 140px;
+	top: 500px;
+	position: absolute;
+    width: 510px;
+	font-weight: bolder;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 340px;
+    text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+input[type='text'], [type='email'] {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0 20px 0;
+	padding: 0 0 20px 0;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0 0px 40px;
+	padding: 0 0 0 0;
+	width: 730px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+select{
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0PX 0 20px 0;
+	padding: 0 0 20px 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+    
+    }
+
+.firstname {
+	float: left;
+	width: 40%;
+}
+.lastname{
+        float: right;
+	width: 40%;
+}
+.code{
+        float:left;
+        width: 20%;
+}
+.telephone{
+        float:right;
+        width: 60%;
+}
+.cont{
+    position: absolute;
+    top: 850px;
+    left: 300px;
+}
+
+.red{
+    position: absolute;
+    right:90px;
+    top:500px;
+}
+.red img{
+    width: 500px;
+}
+
+#Global{
+	left: 150px;
+    top: 1580px;
+    position: absolute;
+	width: 350px;
+	height: 155px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 650px;
+    top: 1580px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 0px;
+	left: 350px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 250px;
+	color:rgba(27,61,108,1) ;
+}
+    
+    #call2 {
+    top: 0px;
+	left: 400px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}
+   
+}
+
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+    
+    .navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 11%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 25.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+    .sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}
+
+
+.logo img{
+    height: 190px;
+    right:500px;
+    top: 30px;  
+    position: absolute;
+}
+
+.home {
+    background-color: white;
+    height: 60px;
+    width: 100px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill:rgba(27,61,108,1);
+}
+.home_1 {
+    position:absolute;
+	width: 35px;
+	left: 45px;
+	top: 10px;
+}
+
+
+
+.pit {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+/*contact*/
+
+#ping{
+	left: 140px;
+	top: 500px;
+	position: absolute;
+    width: 510px;
+	font-weight: bolder;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 340px;
+    text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+input[type='text'], [type='email'] {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0 20px 0;
+	padding: 0 0 20px 0;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0 0px 40px;
+	padding: 0 0 0 0;
+	width: 730px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+select{
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0PX 0 20px 0;
+	padding: 0 0 20px 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+    
+    }
+
+.firstname {
+	float: left;
+	width: 40%;
+}
+.lastname{
+        float: right;
+	width: 40%;
+}
+.code{
+        float:left;
+        width: 20%;
+}
+.telephone{
+        float:right;
+        width: 60%;
+}
+.cont{
+    position: absolute;
+    top: 850px;
+    left: 300px;
+}
+
+.red{
+    position: absolute;
+    right:90px;
+    top:500px;
+}
+.red img{
+    width: 500px;
+}
+
+#Global{
+	left: 150px;
+    top: 1580px;
+    position: absolute;
+	width: 350px;
+	height: 155px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 630px;
+    top: 1580px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 0px;
+	left: 300px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 230px;
+	color:rgba(27,61,108,1) ;
+}
+    
+    #call2 {
+    top: 0px;
+	left: 400px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 150px;
+	color:rgba(27,61,108,1) ;
+}
+}
+
+@media only screen
+    and (max-device-width : 480px) {
+#menu{
+	width: 30px;
+	height: 30px;
+
+    left: 50%;
+    transform: translate(-50%);
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+    margin-left: 0;
+    
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 20;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+    z-index: 10;
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}  
+    .active{
+    background-color: rgb(27, 55, 95);
+    }    
+.sticky{
+    top: 170px;
+    z-index: 2;
+    left: 0px;
+ background-color:rgba(27,61,108,1);
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 160px;
+margin-left: 0;
+    left: 50%;
+    transform: translate(-50%);
+    top: 150px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 25; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+    #home_1{
+        fill: white;
+    }
+
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+ 
+  /*contact*/
+
+#ping{
+	left: 40px;
+	top: 400px;
+	position: absolute;
+    width: 250px;
+	font-weight: bolder;
+	font-size: 20px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 10px 0px 0px 0px;
+  width: 280px;
+  height: 460px;
+  margin: 20px auto;
+}
+h2{
+  color: #ffffff;
+  padding: 10px 0px;
+  text-align: center;
+  font-size: 20px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 10px 0px;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0px 10px 20px;
+	padding: 0px 0px 0px 0px;
+	width: 240px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 40%;
+    margin-left: 20px;
+
+}
+.lastname{
+        float: right;
+	width: 40%;
+        margin-right: 20px;
+}
+.code{
+        float:left;
+        width: 25%;
+     margin-left: 20px;
+}
+.telephone{
+        float:right;
+        width: 55%;
+    margin-right: 20px;
+}
+.cont{
+    position: absolute;
+    top: 700px;
+    left: 20px;
+}
+.email{
+         margin: 0px 20px;
+    }    
+
+.red{
+    position: absolute;
+    right:10px;
+    top:500px;
+}
+.red img{
+    width: 250px;
+}
+
+#Global{
+	left: 90px;
+    top: 1350px;
+    position: absolute;
+	width: 220px;
+	font-weight: bolder;
+	font-size: 13px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 30px;
+}
+
+#_hrpipetech {
+	left: 90px;
+    top: 1500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 30px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 30px;
+}
+
+#call {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 13px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}  
+
+    iframe {
+        position: absolute;
+        margin-top: 00px;
+    }
+    
+       #not{
+	left: 40px;
+    top: 2050px;
+    position: absolute;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 20px;
+	color: rgba(27,61,108,1);
+} 
+    #londonadd{
+	left: 90px;
+    top: 2200px;
+    position: absolute;
+	width: 200px;
+	font-weight: bolder;
+	font-size: 13px;
+	color: rgba(27,61,108,1);
+} 
+    
+        #formore{
+	left: 90px;
+    top: 2350px;
+    position: absolute;
+	width: 200px;
+	font-weight: bolder;
+	font-size: 13px;
+            color: rgba(27,61,108,1);}
+    
+            #call2 {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 13px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}  
+    
+      /*footer*/
+/*footer*/    
+    
+    .footer {
+   
+    height: 1000px;
+    position: relative;
+    top: 2450px;
+}
+}
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+   #menu{
+	width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+       left: 50%;
+       transform: translate(-50%);
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+           .active{
+    background-color: rgb(27, 55, 95);
+    }
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+    top: 170px;
+    z-index: 2;
+    left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 160px;
+    margin-left:0px;
+     left: 50%;
+       transform: translate(-50%);
+    top: 150px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 5; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+      #home_1{
+          fill:white;
+      }
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+
+       
+  /*contact*/
+
+#ping{
+	left: 90px;
+	top: 400px;
+	position: absolute;
+    width: 350px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+    font-size: 12px;
+  cursor: pointer;
+  margin: 10px 140px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 0px 0px 0px 0px;
+  width: 380px;
+  height: 470px;
+  margin: 20px auto;
+}
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 25px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 10px 0px;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0px 10px 20px;
+	padding: 0px 0px 0px 0px;
+	width: 340px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 43%;
+    margin-left: 20px;
+
+}
+.lastname{
+        float: right;
+	width: 43%;
+        margin-right: 20px;
+}
+.code{
+        float:left;
+        width: 30%;
+     margin-left: 20px;
+}
+.telephone{
+        float:right;
+        width: 55%;
+    margin-right: 20px;
+}
+.cont{
+    position: absolute;
+    top: 700px;
+    left: 80px;
+}
+.email{
+         margin: 0px 20px;
+    }    
+
+.red{
+    position: absolute;
+    right:60px;
+    top:500px;
+}
+.red img{
+    width: 250px;
+}
+
+#Global{
+	left: 150px;
+    top: 1350px;
+    position: absolute;
+	width: 300px;
+	
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 150px;
+    top: 1500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 300px;
+	color:rgba(27,61,108,1) ;
+}  
+
+    iframe {
+        position: absolute;
+        margin-top: 00px;
+    }
+    #not{
+	left: 90px;
+    top: 2050px;
+    position: absolute;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+} 
+    #londonadd{
+	left:150px;
+    top: 2200px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+    #call2 {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}  
+    
+        #formore{
+	left: 150px;;
+    top: 2400px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    height: 950px;
+    position: relative;
+    top: 2500px;
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+ #menu{
+	width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+      left: 50%;
+       transform: translate(-50%);
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+           .active{
+    background-color: rgb(27, 55, 95);
+    }
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+    top: 170px;
+    z-index: 2;
+    left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 200px;
+    margin-left:0px;
+     left: 50%;
+       transform: translate(-50%);
+    top: 170px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 5; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+      #home_1{
+          fill:white;
+      }
+
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+     
+         
+  /*contact*/
+
+#ping{
+	left: 90px;
+	top: 400px;
+	position: absolute;
+    width: 350px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+    font-size: 12px;
+  cursor: pointer;
+  margin: 10px 140px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 0px 0px 0px 0px;
+  width: 410px;
+  height: 500px;
+  margin: 20px auto;
+}
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 25px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 10px 0px;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0px 10px 20px;
+	padding: 0px 0px 0px 0px;
+	width: 370px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 43%;
+    margin-left: 20px;
+
+}
+.lastname{
+        float: right;
+	width: 43%;
+        margin-right: 20px;
+}
+.code{
+        float:left;
+        width: 30%;
+     margin-left: 20px;
+}
+.telephone{
+        float:right;
+        width: 55%;
+    margin-right: 20px;
+}
+.cont{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+.email{
+         margin: 0px 20px;
+    }    
+
+.red{
+    position: absolute;
+    right:60px;
+    top:500px;
+}
+.red img{
+    width: 350px;
+}
+
+#Global{
+	left: 150px;
+    top: 1350px;
+    position: absolute;
+	width: 300px;
+	
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 150px;
+    top: 1530px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+    width: 300px;
+	color:rgba(27,61,108,1) ;
+}  
+
+    iframe {
+        position: absolute;
+        margin-top: 00px;
+    }
+    #not{
+	left: 90px;
+    top: 2050px;
+    position: absolute;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+} 
+    #londonadd{
+	left:150px;
+    top: 2200px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+    #call2 {
+    top: 120px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}  
+    
+        #formore{
+	left: 150px;;
+    top: 2400px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+
+   
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    height: 700px;
+    position: relative;
+    top: 2500px;
+}
+      
+}
+
+
+@media only screen 
+  and (min-device-width: 900px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      #menu{      
+  width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+           left: 50%;
+       transform: translate(-50%);
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+}
+           .active{
+    background-color: rgb(27, 55, 95);
+    }
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+  top: 170px;
+  z-index: 2;
+  left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 200px;
+    margin-left:0px;
+     left: 50%;
+       transform: translate(-50%);
+    top: 170px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 5; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+      #home_1{
+          fill:white;
+      }
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+      
+            
+  /*contact*/
+
+#ping{
+	left: 90px;
+	top: 400px;
+	position: absolute;
+    width: 350px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+    font-size: 12px;
+  cursor: pointer;
+  margin: 10px 140px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 0px 0px 0px 0px;
+  width: 410px;
+  height: 500px;
+  margin: 20px auto;
+}
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 25px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 10px 0px;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0px 10px 20px;
+	padding: 0px 0px 0px 0px;
+	width: 370px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 43%;
+    margin-left: 20px;
+
+}
+.lastname{
+        float: right;
+	width: 43%;
+        margin-right: 20px;
+}
+.code{
+        float:left;
+        width: 30%;
+     margin-left: 20px;
+}
+.telephone{
+        float:right;
+        width: 55%;
+    margin-right: 20px;
+}
+.cont{
+    position: absolute;
+    top: 700px;
+    left: 200px;
+}
+.email{
+         margin: 0px 20px;
+    }    
+
+.red{
+    position: absolute;
+    right:60px;
+    top:500px;
+}
+.red img{
+    width: 350px;
+}
+
+#Global{
+	left: 150px;
+    top: 1350px;
+    position: absolute;
+	width: 300px;
+	
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 150px;
+    top: 1530px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+    width: 300px;
+	color:rgba(27,61,108,1) ;
+}  
+
+    iframe {
+        position: absolute;
+        margin-top: 00px;
+    }
+    #not{
+	left: 90px;
+    top: 2050px;
+    position: absolute;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+} 
+    #londonadd{
+	left:150px;
+    top: 2200px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+    #call2 {
+    top: 120px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}  
+    
+        #formore{
+	left: 550px;;
+    top: 2200px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+
+   
+  
+
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    height: 700px;
+    position: relative;
+    top: 2400px;
+}
+
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1199px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      #menu{      
+  width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+           left: 50%;
+       transform: translate(-50%);
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+           .active{
+    background-color: rgb(27, 55, 95);
+    }
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+  top: 170px;
+  z-index: 2;
+  left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 200px;
+    margin-left:0px;
+     left: 50%;
+       transform: translate(-50%);
+    top: 170px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 5; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+      #home_1{
+          fill:white;
+      }
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+      
+            
+  /*contact*/
+
+#ping{
+	left: 90px;
+	top: 400px;
+	position: absolute;
+    width: 350px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+    font-size: 12px;
+  cursor: pointer;
+  margin: 10px 140px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 0px 0px 0px 0px;
+  width: 410px;
+  height: 500px;
+  margin: 20px auto;
+}
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 25px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 10px 0px;
+	width: ;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 0px 10px 20px;
+	padding: 0px 0px 0px 0px;
+	width: 370px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 43%;
+    margin-left: 20px;
+
+}
+.lastname{
+        float: right;
+	width: 43%;
+        margin-right: 20px;
+}
+.code{
+        float:left;
+        width: 30%;
+     margin-left: 20px;
+}
+.telephone{
+        float:right;
+        width: 55%;
+    margin-right: 20px;
+}
+.cont{
+    position: absolute;
+    top: 700px;
+    left: 400px;
+}
+.email{
+         margin: 0px 20px;
+    }    
+
+.red{
+    position: absolute;
+    right:60px;
+    top:500px;
+}
+.red img{
+    width: 350px;
+}
+
+#Global{
+	left: 150px;
+    top: 1350px;
+    position: absolute;
+	width: 300px;
+	
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 150px;
+    top: 1530px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 100px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+    width: 300px;
+	color:rgba(27,61,108,1) ;
+}  
+
+    iframe {
+        position: absolute;
+        margin-top: 00px;
+    }
+    #not{
+	left: 90px;
+    top: 2050px;
+    position: absolute;
+	width: 250px;
+	font-weight: bolder;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+} 
+    #londonadd{
+	left:150px;
+    top: 2200px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+    #call2 {
+    top: 120px;
+	left: 0px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 18px;
+    width: 200px;
+	color:rgba(27,61,108,1) ;
+}  
+    
+        #formore{
+	left: 550px;;
+    top: 2200px;
+    position: absolute;
+	width: 300px;
+	font-weight: bolder;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+} 
+
+   
+  
+
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    height: 700px;
+    position: relative;
+    top: 2400px;
+}
+
+
+}
+
+
+
+@media only screen 
+  and (min-device-width: 1800px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 20px 52.9px;
+  text-decoration: none;
+  border-radius: 60px;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+
+.logo img{
+    height: 200px;
+    left:200px;
+    top: 30px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 80px;
+    width: 120px;
+    top:280px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: white;
+}
+.home_1 {
+    position:absolute;
+	width: 45px;
+	left: 45px;
+	top: 20px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 32px;
+   padding: 20px 30px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+    
+/*contact*/
+
+#ping{
+	left: 140px;
+	top: 500px;
+	position: absolute;
+    width: 610px;
+	font-weight: bolder;
+	font-size: 45px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 340px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 0px 0px 10px 0px;
+  width: 800px;
+  margin: 20px 0px;
+}
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 10px 0 10px 0;
+	padding: 0 0 20px 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 40px 20px 40px;
+	padding: 0 0 0 0;
+	width: 710px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 40%;
+    margin-left: 40px;
+    
+}
+.lastname{
+        float: right;
+	width: 40%;
+    margin-right: 40px;
+}
+.code{
+        float:left;
+        width: 25%;
+     margin-left: 40px;
+}
+.telephone{
+        float:right;
+        width: 60%;
+    margin-right: 40px;
+}
+.email{
+     margin: 0px 40px;
+}
+.cont{
+    position: absolute;
+    top: 850px;
+    left: 550px;
+}
+
+.red{
+    position: absolute;
+    right:90px;
+    top:450px;
+}
+.red img{
+    width: 600px;
+}
+
+#Global{
+	left: 180px;
+    top: 1580px;
+    position: absolute;
+	width: 350px;
+	height: 155px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 900px;
+    top: 1580px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 0px;
+	left: 480px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 300px;
+	color:rgba(27,61,108,1) ;
+}
+
+/* footer */
+.footer {
+    height: 550px;
+    position: relative;
+    top: 2500px;
+}
+}    

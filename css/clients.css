@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+ 
+html{
+    background-color: #fff;
+    color:#000000;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: #D6E2F0;
+}
+.logo h3{
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    color: #1B3D6C;
+    font-size: 30px;
+}
+.logo span{
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #1B3D6C;
+    font-size: 20px;
+}
+
+.logo img{
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.grid-container {
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    transform: translate(-50%);
+  display: grid;
+  grid-gap:150px;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+}
+
+.grid-item {
+  padding:0px 0px 0px 0px;
+}
+
+.grid-item img{
+    width: 170px;
+}
+.footer {
+    height: 600px;
+    position: relative;
+    top: 4500px;
+
+}
+
+
+@media only screen
+and (max-device-width : 830px)
+{
+    .logo{
+    height: 350px;
+}
+.logo h3{
+    left: 40px;
+    font-size: 23px;
+}
+.logo span{
+    top: 400px;
+    font-size: 17px;
+}
+
+.logo img{
+    width: 150px;
+
+}
+.grid-container {
+    position: absolute;
+    top: 600px;
+  grid-gap:50px;
+  grid-template-columns: auto auto ;
+}
+
+
+.grid-item img{
+    width: 100px;
+}  
+    .footer {
+    height: 600px;
+    position: relative;
+    top: 3350px;
+    }
+        .rights{
+            position: absolute;
+            top:950px;
+        }
+}
+
+@media only screen 
+  and (min-device-width: 780px) 
+  and (max-device-width: 827px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+  .rights{
+            position: absolute;
+            top:650px;
+        }  
+}
+
+@media only screen 
+  and (min-device-width: 827px) 
+  and (max-device-width: 1199px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+  .rights{
+            position: absolute;
+            top:650px;
+        }  
+}

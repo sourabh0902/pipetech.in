@@ -1,0 +1,30 @@
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+# Remove trailing slash from non-filepath urls
+RewriteCond %{REQUEST_URI} /(.+)/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ https://pipetech.in/%1 [R=301,L]
+
+# Include trailing slash on directory 
+RewriteCond %{REQUEST_URI} !(.+)/$
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ https://pipetech.in/$1/ [R=301,L]
+
+RewriteCond %{HTTPS} off  
+RewriteRule ^(.*)$ https://pipetech.in/$1 [R=301,L]
+
+
+Header set X-Frame-Options "DENY"
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+PassengerAppRoot "/home/sumedh0bhawar/pipetech-backend/"
+PassengerBaseURI "/auth/login"
+PassengerPython "/home/sumedh0bhawar/virtualenv/pipetech-backend/3.7/bin/python3.7"
+PassengerAppLogFile "/home/sumedh0bhawar/passenger.log"

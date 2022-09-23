@@ -1,0 +1,3735 @@
+@media only screen
+and (max-device-width : 479px) {
+
+    
+    #loader {
+    background-size: 200px 200px;
+}
+    
+  #menu{
+	width: 40px;
+	height: 40px;
+    left: 207px;
+    transform: translate(-50%);
+	cursor: pointer;
+    top: -137px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+    position: relative;
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top: 3.5px;
+    margin-left: 9px;
+    padding: 0px 0px;
+    position:relative;
+    top: 9px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+    font-size: 14px;
+    padding: 0px 20px 50px;
+    margin-left: 0;
+    
+
+}
+
+.navbar{
+	padding: 0;
+	margin: -40px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 0px;
+	margin: -1px 0px 0px 27px;
+	background-color: #1b3c6d;
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 20;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+    z-index: 10;
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}  
+    .active{
+    background-color: rgb(27, 55, 95);
+    }    
+.sticky{
+    top: 170px;
+    z-index: 2;
+    left: 0px;
+ background-color:rgba(27,61,108,1);
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 160px;
+    margin-left: 0;
+    left: 205px;
+    transform: translate(-50%);
+    top: 167px;  
+    position: absolute;
+}
+
+.home {
+    background-color: white;
+    height: 45px;
+    width: 80px;
+    top: 36px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 25; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 42px;
+	top: 11px;
+}
+    #home_1{
+        fill: #1b3c6d;
+    }
+
+.pit {
+    height: 48px;
+    width: 80px;
+    right: -330px;
+    top: 33px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    left: 334px;
+    
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 18px;
+    padding: 13px 15px;
+    font-weight: 700;
+}
+
+/*home*/
+
+#we{
+    left: 10px;
+    top: 443px;
+	font-size: 32px;
+    width: 260px;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.mobile_earth img{
+    margin-top: 398px;
+    width: 319px;
+    right: 58px;
+    margin-left: 93px;
+    top: 500px;
+    z-index: 0;
+}
+
+.earth img{
+    display: none;
+    width: 0px;
+}
+
+#Welcome_to_Pipetech {
+	left: 40px;
+	top: 852px;
+	font-size: 22px;
+    padding: 12px 20px 12px 20px;
+    margin-right: 32px;
+    text-align: center;
+    background-color: white;
+    color: #1b3c6d;
+    z-index: 1;
+}
+
+/*slider*/
+
+.slider {
+    top: 1102px;
+    left: 53%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    width: 300px;
+    height: 220px;
+}
+ .card{
+    background-color:white;
+    -webkit-box-shadow: 5px 5px 10px #484747;
+    box-shadow: 5px 5px 10px #484747; 
+    border-radius: 20px;
+    height: 180px;
+    width: 150px;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem 0.3rem 1rem 0.7rem; 
+    display:block;
+    text-align: justify-all;
+    color: #1b3c6d;
+    }
+    
+
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding:0px 0px 0.5rem 0px;
+    font-size: 11px;
+     display:block;
+     text-align: justify-all;
+   
+
+  
+}
+    .title1,.title4,.title5{
+    padding-bottom: 1.2rem;
+        
+}
+
+
+.title1 {
+    padding-bottom: 1.1rem;
+}
+    .card p {
+     font-size: 10px;
+     display:block;
+     text-align: justify-all;
+    }
+
+.button a{
+  padding: 0px 10px;
+}
+
+    .button{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    top: 399px;    
+    }
+
+.button .next {
+    top: 990px;
+    left: 40px;
+}
+ 
+ .button .previous {
+    top: 990px;
+    left:-80px;
+}
+   
+
+.button .round {
+  border-radius: 50%;
+  font-size: 22px
+}
+  
+    
+/*about*/
+
+#About_Pipetech {
+	left: 40px;
+	top: 1719px;
+	font-size: 22px;
+}
+#We_aim_high{
+	left: 40px;
+	top: 1777px;
+	width: 250px;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.br img{
+    top: 1482px;
+    right: 81px;
+    width: 250px;
+}
+#know{
+	font-size: 12px;
+    border-radius: 70px;
+    padding: 10px 25px;
+    top: 2043px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+    #What-we-do {
+	left: 40px;
+	top: 2356px;
+	font-size: 22px;
+}
+#we-are{
+	left: 40px;
+	top: 2418px;
+	width: 250px;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.brd img{
+    top: 2141px;
+    right: 93px;
+    width: 250px;
+}
+#know1{
+	font-size: 12px;
+    border-radius: 70px;
+    padding: 10px 25px;
+    top: 2615px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+  
+    #What-we-created {
+	left: 40px;
+	top: 2900px;
+	font-size: 22px;
+}
+#we-create{
+	left: 40px;
+	top: 2964px;
+	width: 250px;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.brdd img{
+    top: 2694px;
+    right:85px;
+    width: 250px;
+}
+#know2{
+	font-size: 12px;
+    border-radius: 70px;
+    padding: 10px 25px;
+    top: 3147px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+  
+    
+    
+/* test*/    
+.blues {
+	top: 4000px;
+    display:none;
+}
+
+    .grid-container {
+    position: absolute;
+    top: 4146px;
+    grid-gap:50px;
+    grid-template-columns: auto auto;
+    padding: 0px;
+      
+}
+
+
+.grid-item img{
+    width: 60px;
+}
+.clients h4{
+	left: 40px;
+	top: 20px;
+	font-size: 20px;
+}
+    
+    .clients {
+    position: absolute;
+    top: 4015px;
+    height: 638px;
+    background-color: rgba(27,61,108,1);
+    width: 100%;
+    }
+    
+    #know3{
+	font-size: 12px;
+    border-radius: 70px;
+    padding: 10px 25px;
+    top: 4554px;
+    
+}
+  
+    
+#Projects {
+	left: 40px;
+	top: 3253px;
+	font-size: 20px;
+    z-index: 2;
+}
+.slide {
+    position:relative;
+    top: 1675px;
+    left: 00px;
+    height: 770px;
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 5px 5px 20px #383535; 
+    box-shadow: 5px 5px 20px #383535; 
+    border-radius: 20px;
+    height: 310px;
+    width: 200px;
+    margin: 0px 00px 0px 0px;
+    padding: 0px 0px 0px 0px; 
+    color: rgba(27,61,108,1); 
+     display: block;
+     position: absolute;
+      left: 50%;
+     transform: translate(-50%);
+     top: 120px;
+     
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 5px 5px 20px #383535; 
+   box-shadow: 5px 5px 20px #383535; 
+    border-radius: 20px;
+    height: 150px;
+    width: 200px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+     display: block;
+     position: absolute;
+     top: 500px;
+     left: 50%;
+     transform: translate(-50%);
+    }
+
+.tile1{
+    padding: 1rem 0px 0px 3.4rem;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+}
+.tile2{
+    padding: 2rem 0px 0px 2rem;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 13px;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tile1 p1{
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.card1 p{
+    font-size: 11px;
+    padding: 0.5rem 1rem 0px 1.5rem;
+}
+.card1 img{ 
+    position: absolute;
+    top: 250px;
+    left: -40px;
+    width: 100px; 
+}
+.card2 p{
+    font-size: 11px;
+    padding: 0px 5px 0px 10px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 120px;
+    width:  90px; 
+    left: -20px;
+
+}
+    
+    
+/*footer*/
+/*footer*/    
+     .footer {
+    height: 1000px;
+    position: relative;
+    top: 2376px;
+}
+
+
+}
+
+
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+   
+    #loader {
+    background-size: 350px 350px;
+}    
+      
+   #menu{
+	width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+    left: 50%;
+    transform: translate(-50%);
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+    position: static;
+    
+}
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 20;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+    z-index: 10;
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+    top: 170px;
+    z-index: 2;
+    left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 160px;
+    margin-left:0px;
+    top: 150px;  
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 25; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+.
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+
+/*home*/
+
+#we{
+    left: 40px;
+    top: 470px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 23px;
+	color: rgba(27,61,108,1);
+    width: 400px;
+}
+
+.earth img{
+    width: 400px;
+    position: absolute;
+    right:0px;
+    top: 520px;
+}
+
+#Welcome_to_Pipetech {
+	left: 50px;
+	top: 650px;
+	position: absolute;
+	white-space: nowrap;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 25px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px; 
+}
+
+/*slider*/
+
+.slider {
+    top: 780px;
+    left: 50px;
+    width: 420px;
+    height: 300px;
+    display: none;
+}
+ .card{
+    background-color:white;
+    box-shadow: 5px 5px 10px #484747; 
+    border-radius: 20px;
+    height: 220px;
+    width: 200px;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding:0px 0px 10px 0px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.title1 {
+    padding-bottom: 30px;
+}
+    .card p {
+        font-size: 15px;
+      }
+
+.button a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: black;
+    
+}
+
+.button .next {
+  background-color:#f1f1f1;
+  position: absolute;
+  top: 1050px;
+  left: 350px;
+}
+ 
+.button .previous {
+    background-color:#f1f1f1;
+    position: absolute;
+    top: 1050px;
+    left: 130px;
+}
+   
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+  
+    
+/*about*/
+
+#About_Pipetech {
+	left: 40px;
+	top: 1450px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#We_aim_high{
+	left: 40px;
+	top: 1500px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.br img{
+    position: absolute;
+    top: 1150px;
+    right: 70px;
+    width: 300px;
+}
+#know{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 1820px;
+    left: 200px;
+    
+}
+      
+#What-we-do {
+	left: 40px;
+	top: 2250px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-are{
+	left: 40px;
+	top: 2300px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brd img{
+    position: absolute;
+    top: 1950px;
+    right: 70px;
+    width: 300px;
+}
+#know1{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 2550px;
+    left: 200px;
+    
+}    
+      #What-we-created {
+	left: 40px;
+	top: 3000px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-create{
+	left: 40px;
+	top: 3050px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brdd img{
+    position: absolute;
+    top: 2700px;
+    right: 70px;
+    width: 300px;
+}
+#know2{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 3300px;
+    left: 200px;
+    
+} 
+.blues {
+	top: 4000px;
+    display:none;
+}
+
+    .grid-container {
+    position: absolute;
+    top: 3900px;
+  grid-gap:50px;
+  grid-template-columns: auto auto;
+  padding: 0px;
+      
+}
+
+
+.grid-item img{
+    width: 60px;
+}
+.clients h4{
+	left: 40px;
+	top: 20px;
+	font-size: 20px;
+}
+    
+    .clients {
+         position: absolute;
+    top: 3800px;
+          height: 600px;
+        background-color:   rgba(27,61,108,1);
+        width: 100%;
+    }
+    
+    #know3{
+	font-size: 12px;
+    border-radius: 70px;
+    padding: 10px 25px;
+    top: 4300px;
+    
+}
+  
+
+#Projects {
+	left: 40px;
+	top: 3455px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 22px;
+	
+}
+.slide {
+   max-width: 800px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 3500px;
+    left: 50px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 220px;
+    width: 170px;
+    margin: 20px 00px 10px 30px;
+    padding: 5px 0px 0px 0px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 130px;
+    width: 150px;
+    margin: 50px 0px 0px 30px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.tile1{
+    padding: 20px 0px 0px 35px;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 9px;
+    padding: 0px 0px 0px 0px;
+}
+.tile2{
+    padding: 10px 0px 0px 0px;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 9px;
+    padding: 10px 0px 0px 30px;
+}
+
+.tile1 p1{
+    font-size: 8px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.card1 p{
+    font-size: 9.5px;
+    padding: 0px 0px 0px 15px;
+}
+.card1 img{ 
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    width: 80px; 
+}
+.card2 p{
+    font-size: 10px;
+    padding: 0px 5px 0px 10px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 145px;
+    width: 80px; 
+    left: 200px;
+
+}
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    height: 950px;
+    position: relative;
+    top: 4500px;
+}
+
+
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+   #menu{
+	width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+       left: 50%;
+    transform: translate(-50%);
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+}
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 20;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+    z-index: 10;
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+    top: 170px;
+    z-index: 2;
+    left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 200px;
+    margin-left:0px;
+    top: 170px;  
+   left: 50%;
+    transform: translate(-50%);
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 15; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+.
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+
+/*home*/
+
+#we{
+    left: 40px;
+    top: 470px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+    width: 400px;
+}
+
+.earth img{
+    width: 550px;
+    position: absolute;
+    right:0px;
+    top: 520px;
+}
+
+#Welcome_to_Pipetech {
+	left: 140px;
+	top: 700px;
+	position: absolute;
+	white-space: nowrap;
+	text-align: center;
+
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+
+/*slider*/
+
+.slider {
+    top: 890px;
+    left: 50px;
+    width: 700px;
+    height: 300px;
+    display: none;
+}
+ .card{
+    background-color:white;
+    box-shadow: 5px 5px 10px #484747; 
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
+    margin: 0px 50px 0px 50px;
+    padding: 10px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding:0px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.title1 {
+    padding-bottom: 30px;
+}
+    .card p {
+        font-size: 15px;
+      }
+
+.button a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: black;
+    
+}
+
+.button .next {
+  background-color:#f1f1f1;
+  position: absolute;
+  top: 1200px;
+  left: 550px;
+}
+ 
+.button .previous {
+    background-color:#f1f1f1;
+    position: absolute;
+    top: 1200px;
+    left: 190px;
+}
+   
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+  
+    
+/*about*/
+
+#About_Pipetech {
+	left: 40px;
+	top: 1500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#We_aim_high{
+	left: 40px;
+	top: 1550px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.br img{
+    position: absolute;
+    top: 1300px;
+    right: 70px;
+    width: 350px;
+}
+#know{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 1890px;
+    left: 300px;
+    
+}
+      #What-we-do {
+	left: 40px;
+	top: 2200px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-are{
+	left: 40px;
+	top: 2250px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brd img{
+    position: absolute;
+    top: 2000px;
+    right: 70px;
+    width: 350px;
+}
+#know1{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 2500px;
+    left: 300px;
+    
+}
+         #What-we-created {
+	left: 40px;
+	top: 2800px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-create{
+	left: 40px;
+	top: 2850px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brdd img{
+    position: absolute;
+    top: 2600px;
+    right: 70px;
+    width: 350px;
+}
+#know2{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 3100px;
+    left: 300px;
+    
+}
+
+.blues {
+	top: 4000px;
+    display:none;
+}
+
+    .grid-container {
+    position: absolute;
+    top: 3800px;
+  grid-gap:100px;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+      
+}
+
+
+.grid-item img{
+    width: 90px;
+}
+.clients h4{
+	left: 40px;
+	top: 20px;
+	font-size: 20px;
+}
+    
+    .clients {
+         position: absolute;
+    top: 3700px;
+          height: 600px;
+        background-color:   rgba(27,61,108,1);
+        width: 100%;
+    }
+    
+    #know3{
+	font-size: 12px;
+    border-radius: 70px;
+    padding: 10px 25px;
+    top: 4200px;
+    
+}
+  
+
+#Projects {
+	left: 100px;
+	top: 3230px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+.slide {
+   max-width: 800px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 3300px;
+    left: 80px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 250px;
+    width: 220px;
+    margin: 20px 50px 0px 50px;
+    padding: 5px 0px 0px 0px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 160px;
+    width: 190px;
+    margin: 50px 0px 0px 30px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.tile1{
+    padding: 30px 0px 0px 50px;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.tile2{
+    padding: 30px 0px 0px 0px;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 12px;
+    padding: 10px 0px 0px 30px;
+}
+
+.tile1 p1{
+    font-size: 11px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.card1 p{
+    font-size: 11.1px;
+    padding: 0px 5px 0px 15px;
+}
+.card1 img{ 
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    width: 100px; 
+}
+.card2 p{
+    font-size: 11.2px;
+    padding: 0px 5px 0px 10px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 145px;
+    width:100px; 
+    left: 300px;
+
+}
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    height: 700px;
+    position: relative;
+    top: 4300px;
+}
+
+}
+
+
+@media only screen 
+  and (min-device-width: 900px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      #menu{      
+  width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+          left: 50%;
+    transform: translate(-50%);
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 20;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+    z-index: 10;
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+  top: 170px;
+  z-index: 2;
+  left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 200px;
+    margin-left:0px;
+    top: 170px;  
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 15; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+.
+.pit:hover {
+     background-color:#D6E2F0;   
+}/*home*/
+
+#we{
+    left: 40px;
+    top: 470px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+    width: 400px;
+}
+
+.earth img{
+    width: 590px;
+    position: absolute;
+    right:0px;
+    top: 520px;
+}
+
+#Welcome_to_Pipetech {
+	left: 200px;
+	top: 700px;
+	position: absolute;
+	white-space: nowrap;
+	text-align: center;
+
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+
+/*slider*/
+
+.slider {
+    top: 890px;
+    left: 50px;
+    width: 800px;
+    height: 300px;
+    display: none;
+}
+ .card{
+    background-color:white;
+    box-shadow: 5px 5px 10px #484747; 
+    border-radius: 30px;
+    height: 250px;
+    width: 300px;
+    margin: 0px 60px 0px 60px;
+    padding: 10px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding:0px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.title1 {
+    padding-bottom: 30px;
+}
+    .card p {
+        font-size: 15px;
+      }
+
+.button a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: black;
+    
+}
+
+.button .next {
+  background-color:#f1f1f1;
+  position: absolute;
+  top: 1200px;
+  left: 630px;
+}
+ 
+.button .previous {
+    background-color:#f1f1f1;
+    position: absolute;
+    top: 1200px;
+    left: 220px;
+}
+   
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+  
+    
+/*about*/
+
+#About_Pipetech {
+	left: 40px;
+	top: 1500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#We_aim_high{
+	left: 40px;
+	top: 1550px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.br img{
+    position: absolute;
+    top: 1300px;
+    right: 70px;
+    width: 390px;
+}
+#know{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 1890px;
+    left: 300px;
+    
+}
+      #What-we-do {
+	left: 40px;
+	top: 2200px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-are{
+	left: 40px;
+	top: 2250px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brd img{
+    position: absolute;
+    top: 2000px;
+    right: 70px;
+    width: 390px;
+}
+#know1{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 2500px;
+    left: 300px;
+    
+}
+      #What-we-created {
+	left: 40px;
+	top: 2800px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-create{
+	left: 40px;
+	top: 2850px;
+	position: absolute;
+	width: 400px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brdd img{
+    position: absolute;
+    top: 2600px;
+    right: 70px;
+    width: 390px;
+}
+#know2{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 3050px;
+    left: 300px;
+    
+}
+
+      
+      
+#blues {
+		fill: rgba(27,61,108,1);
+	}
+.blues {
+        position: absolute;
+		top: 3650px;
+}
+ .grid-container {
+    position: absolute;
+    top: 4000px;
+  grid-gap:50px;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+      
+}
+      #know3{
+          top: 4330px;
+          font-size: 20px;
+      }
+
+.grid-item img{
+    width: 90px;
+}
+.clients h4{
+	left: 40px;
+	top: 3900px;
+	font-size: 30px;
+}
+#Projects {
+	left: 100px;
+	top: 3200px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+}
+.slide {
+   max-width: 800px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 3300px;
+    left: 150px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 250px;
+    width: 220px;
+    margin: 20px 50px 0px 50px;
+    padding: 5px 0px 0px 0px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 160px;
+    width: 190px;
+    margin: 50px 0px 0px 30px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.tile1{
+    padding: 30px 0px 0px 50px;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.tile2{
+    padding: 30px 0px 0px 0px;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 12px;
+    padding: 10px 0px 0px 30px;
+}
+
+.tile1 p1{
+    font-size: 11px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.card1 p{
+    font-size: 11.1px;
+    padding: 0px 5px 0px 15px;
+}
+.card1 img{ 
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    width: 100px; 
+}
+.card2 p{
+    font-size: 11.2px;
+    padding: 0px 5px 0px 10px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 145px;
+    width:100px; 
+    left: 300px;
+
+}
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+   
+    height: 700px;
+    position: relative;
+    top: 4400px;
+}
+
+
+}
+
+
+@media only screen 
+  and (min-device-width: 1025px) 
+  and (max-device-width: 1199px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      #menu{      
+  width: 30px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+    position: fixed;
+    top:30px;
+    background-color: white;
+    padding: 4px;
+    border-radius:100px;
+    box-shadow: 0px 3px 20px #afafaf;
+          left: 50%;
+    transform: translate(-50%);
+       
+}
+
+ 
+    
+.bar{
+	height: 3px;
+	width: 60%;
+	background-color:  rgba(27,61,108,1);
+	display: block;
+	border-radius: 9px;
+    margin-top:3.5px;
+    margin-left:6px;
+    padding: 0px 0px;
+    position:relative;
+    top: 5px;
+    
+}
+
+.navbar li a{
+	color: white;
+	text-decoration: none;
+        font-size: 10px;
+    padding: 20px 40px;
+
+}
+
+.navbar{
+	padding: 0;
+	margin: 0px 0px;
+	display: none;
+    width: 160px;
+    box-shadow: none;
+    background-color:  rgba(27,61,108,1);
+     position: static;
+    
+}
+.menu-bg, #menu-bar{
+	top: 170px;
+	left: 0;
+	position: fixed;
+}
+.menu-bg{
+	z-index: 1;
+	width:0px;
+	height: 00px;
+	margin: 0px 0px 0px 0px;
+	background-color: rgba(27,61,108,1);
+	border-radius: 25%;
+    transition: 0.3s ease;
+
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 400px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+}
+ .change#menu{
+        background-color:rgba(27,61,108,1) ;
+    }
+.change .bar{
+	background-color: white;
+    
+}
+.change #bar1{
+	transform: translateY(5px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-8px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change {
+	display: block;
+
+}   
+.sticky{
+  top: 170px;
+  z-index: 2;
+  left: 0px;
+  width: 160px;
+    
+}
+
+    
+.logo img{
+    height: 200px;
+    margin-left:0px;
+    top: 170px;  
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 40px;
+    width: 60px;
+    top:30px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 0px 0px 0px #afafaf;
+    z-index: 5; 
+    position: fixed;
+}
+    .stickyv{
+        position: fixed;
+        top: 30px;
+    }
+
+.home_1 {
+    position:absolute;
+	width: 25px;
+	left: 20px;
+	top: 9px;
+}
+
+
+.pit {
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    right: 0px;
+    top: 30px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 0px 0px 5px #afafaf;
+    z-index: 5;
+    position: fixed;
+    }
+    .stickyp{
+        position: fixed;
+        top: 30px;
+    }    
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 15px;
+   padding: 10px 10px;
+}
+
+.
+.pit:hover {
+     background-color:#D6E2F0;   
+}/*home*/
+
+#we{
+    left: 40px;
+    top: 470px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+    width: 400px;
+}
+
+.earth img{
+    width: 590px;
+    position: absolute;
+    right:0px;
+    top: 520px;
+}
+
+#Welcome_to_Pipetech {
+	left: 200px;
+	top: 700px;
+	position: absolute;
+	white-space: nowrap;
+	text-align: center;
+
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+
+/*slider*/
+
+.slider {
+    top: 890px;
+    left: 50px;
+    width: 800px;
+    height: 300px;
+    display: none;
+}
+ .card{
+    background-color:white;
+    box-shadow: 5px 5px 10px #484747; 
+    border-radius: 30px;
+    height: 250px;
+    width: 300px;
+    margin: 0px 60px 0px 60px;
+    padding: 10px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding:0px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.title1 {
+    padding-bottom: 30px;
+}
+    .card p {
+        font-size: 15px;
+      }
+
+.button a{
+  text-decoration: none;
+  padding: 0px 20px;
+  color: black;
+    
+}
+
+.button .next {
+  background-color:#f1f1f1;
+  position: absolute;
+  top: 1200px;
+  left: 630px;
+}
+ 
+.button .previous {
+    background-color:#f1f1f1;
+    position: absolute;
+    top: 1200px;
+    left: 220px;
+}
+   
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+  
+    
+/*about*/
+
+#About_Pipetech {
+	left: 40px;
+	top: 1500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#We_aim_high{
+	left: 40px;
+	top: 1550px;
+	position: absolute;
+	width: 600px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.br img{
+    position: absolute;
+    top: 1300px;
+    right: 70px;
+    width: 390px;
+}
+#know{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 1890px;
+    left: 500px;
+    
+}
+      #What-we-do {
+	left: 40px;
+	top: 2200px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-are{
+	left: 40px;
+	top: 2250px;
+	position: absolute;
+	width: 600px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brd img{
+    position: absolute;
+    top: 2000px;
+    right: 70px;
+    width: 390px;
+}
+#know1{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 2450px;
+    left: 500px;
+    
+}
+            #What-we-created {
+	left: 40px;
+	top: 2800px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#we-create{
+	left: 40px;
+	top: 2850px;
+	position: absolute;
+	width: 600px;
+	font-weight: 500;
+	font-size: 18px;
+	color: rgba(27,61,108,1);
+}
+
+.brdd img{
+    position: absolute;
+    top: 2600px;
+    right: 70px;
+    width: 390px;
+}
+#know2{
+    position: absolute;
+	font-size: 20px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    box-shadow: 0px 5px 20px #292727;
+    top: 3050px;
+    left: 500px;
+    
+}
+
+
+
+#blues {
+		fill: rgba(27,61,108,1);
+	}
+.blues {
+        position: absolute;
+		top: 3550px;
+}
+       .grid-container {
+    position: absolute;
+    top: 3900px;
+  grid-gap:100px;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+      
+}
+      #know3{
+          top: 4330px;
+          font-size: 20px;
+      }
+
+.grid-item img{
+    width: 100px;
+}
+.clients h4{
+	left: 40px;
+	top: 3780px;
+	font-size: 30px;
+}
+
+#Projects {
+	left: 100px;
+	top: 3170px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+.slide {
+   max-width: 800px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 3300px;
+    left: 250px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 250px;
+    width: 220px;
+    margin: 20px 50px 0px 50px;
+    padding: 5px 0px 0px 0px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 30px;
+    height: 160px;
+    width: 190px;
+    margin: 50px 0px 0px 30px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.tile1{
+    padding: 30px 0px 0px 50px;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+.tile2{
+    padding: 30px 0px 0px 0px;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 12px;
+    padding: 10px 0px 0px 30px;
+}
+
+.tile1 p1{
+    font-size: 11px;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+}
+
+.card1 p{
+    font-size: 11.1px;
+    padding: 0px 5px 0px 15px;
+}
+.card1 img{ 
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    width: 100px; 
+}
+.card2 p{
+    font-size: 11.2px;
+    padding: 0px 5px 0px 10px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 145px;
+    width:100px; 
+    left: 300px;
+
+}
+    
+/*footer*/
+/*footer*/    
+    
+    .footer {
+    
+    height: 700px;
+    position: relative;
+    top: 4500px;
+}
+
+
+}
+
+
+
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+.navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 9%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 40.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+
+.logo img{
+    height: 190px;
+    right:600px;
+    top: 30px;  
+    position: absolute;
+}
+
+.sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}    
+    
+    
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 60px;
+    width: 100px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: white;
+}
+.home_1 {
+    position:absolute;
+	width: 35px;
+	left: 45px;
+	top: 10px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+ #we{
+    left: 140px;
+    top: 500px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+
+
+#Welcome_to_Pipetech {
+	left: 400px;
+	top: 800px;
+	position: absolute;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+   
+      .grid-container {
+    position: absolute;
+  grid-gap:100px;
+
+
+}
+
+    #know3{
+        top: 5300px;
+    }
+    
+}
+@media only screen 
+  and (min-device-width: 1280px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+ .navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 15.5%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 25.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+
+.logo img{
+    height: 190px;
+    right:555px;
+    top: 30px;  
+    position: absolute;
+}
+
+    .sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}    
+    
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 60px;
+    width: 100px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: white;
+}
+.home_1 {
+    position:absolute;
+	width: 35px;
+	left: 45px;
+	top: 10px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+/*intro*/
+ #we{
+    left: 140px;
+    top: 500px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+
+
+#Welcome_to_Pipetech {
+	left: 300px;
+	top: 800px;
+	position: absolute;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+
+/*slider*/
+
+.slider {
+   max-width: 1200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 1000px;
+    left: 100px
+}
+ .card{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 60px;
+    height: 350px;
+    width: 300px;
+    margin: 20px 100px 10px 100px;
+    padding: 50px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.title1,.title4,.title5{
+    padding-bottom: 45px;
+}
+
+.button a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  color: black;
+ background-color: #f1f1f1;
+    
+}
+
+.button a:hover {
+  background-color: rgb(134, 183, 252);
+  color: black;
+  cursor: pointer;
+}
+
+.button .previous {
+  position: absolute;
+  top: 1200px;
+ left: 50px;
+    
+      
+}
+
+.button .next {
+  background-color:#f1f1f1;
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+}
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+
+
+/*about*/
+
+
+
+.br img{
+    position: absolute;
+    right: 10px;
+    
+}
+    .brd img{
+    position: absolute;
+    right: 10px;
+    
+}
+    .brdd img{
+    position: absolute;
+    right: 10px;
+    
+}
+
+/*blue section */
+
+#blues {
+		fill: rgba(27,61,108,1);
+	}
+.blues {
+        position: absolute;
+		top: 4000px;
+}
+    .grid-container {
+    top: 4400px;
+  grid-gap:100px;
+}
+
+
+.grid-item img{
+    width: 150px;
+}
+.clients h4{
+	left: 140px;
+	top: 4300px;
+}
+
+#know3{
+    top: 4900px;
+    
+}
+
+#Projects {
+	left: 140px;
+	top: 3500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+   
+    /*footer*/
+    .footer{
+        top: 5000px;
+    }
+
+}
+@media only screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+    .navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 11%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 25.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+    .sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}
+
+
+.logo img{
+    height: 190px;
+    right:500px;
+    top: 30px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 60px;
+    width: 100px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: white;
+}
+.home_1 {
+    position:absolute;
+	width: 35px;
+	left: 45px;
+	top: 10px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+/*intro*/
+ #we{
+    left: 110px;
+    top: 500px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+
+
+#Welcome_to_Pipetech {
+	left: 300px;
+	top: 800px;
+	position: absolute;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+
+/*slider*/
+
+.slider {
+   max-width: 1200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 1000px;
+    left: 100px
+}
+ .card{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 60px;
+    height: 350px;
+    width: 300px;
+    margin: 20px 100px 10px 100px;
+    padding: 50px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.title1,.title4,.title5{
+    padding-bottom: 45px;
+}
+
+.button a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  color: black;
+ background-color: #f1f1f1;
+    
+}
+
+.button a:hover {
+  background-color: rgb(134, 183, 252);
+  color: black;
+  cursor: pointer;
+}
+
+.button .previous {
+  position: absolute;
+  top: 1200px;
+ left: 50px;
+    
+      
+}
+
+.button .next {
+  background-color:#f1f1f1;
+    position: absolute;
+    top: 1200px;
+    left: 1100px;
+}
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+
+
+/*about*/
+
+#About_Pipetech {
+	left: 110px;
+
+}
+#We_aim_high{
+	left: 110px;
+	width: 550px;
+	
+}
+
+.br img{
+    right: 10px;
+    width: 500px;
+}
+#know{
+    left: 400px;
+}
+
+    #What-we-created {
+	left: 110px;
+
+}
+#we-create{
+	left: 110px;
+	width: 550px;
+	
+}
+
+.brd img{
+    right: 10px;
+    width: 500px;
+}
+#know1{
+    left: 400px;
+}
+
+    #About_Pipetech {
+	left: 110px;
+
+}
+#We_aim_high{
+	left: 110px;
+	width: 550px;
+	
+}
+
+.brdd img{
+    right: 10px;
+    width: 500px;
+}
+#know2{
+    left: 400px;
+}
+
+/*blue section */
+
+#blues {
+		fill: rgba(27,61,108,1);
+	}
+.blues {
+        position: absolute;
+		top: 3950px;
+}
+.grid-container {
+    top: 4300px;
+  grid-gap:100px;
+}
+
+
+.grid-item img{
+    width: 150px;
+}
+.clients h4{
+	left: 140px;
+	top: 4200px;
+}
+
+#know3{
+    top: 4800px;
+    
+}
+#Projects {
+	left: 140px;
+	top: 3450px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 35px;
+}
+    .slide {
+   max-width: 1200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 3550px;
+    left: 50px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 50px;
+    height: 450px;
+    width: 340px;
+    margin: 20px 00px 10px 100px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 50px;
+    height: 250px;
+    width: 400px;
+    margin: 100px 0px 10px 200px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.tile1{
+    padding: 40px 15px 0px 80px;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 20px;
+    padding: 0px 0px 5px 0px;
+}
+.tile2{
+    padding: 100px 0px 0px 80px;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tile1 p1{
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+}
+
+.card1 p{
+    font-size: 19px;
+    padding: 0px 5px 0px 15px;
+}
+.card1 img{ 
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    width: 200px; 
+    border-radius: 100%;
+}
+.card2 p{
+    font-size: 19px;
+    padding: 0px 5px 0px 15px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 250px;
+    width: 200px; 
+    left: 580px;
+
+}
+
+   
+    /*footer*/
+    .footer{
+        top: 4900px;
+    }
+
+}
+
+@media only screen 
+  and (min-device-width: 1800px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1)
+{
+ 
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 20px 52.9px;
+  text-decoration: none;
+  border-radius: 60px;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+
+.logo img{
+    height: 200px;
+    left:200px;
+    top: 30px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 80px;
+    width: 120px;
+    top:280px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: white;
+}
+.home_1 {
+    position:absolute;
+	width: 45px;
+	left: 45px;
+	top: 20px;
+}
+
+
+
+
+
+.pit {
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 32px;
+   padding: 20px 30px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+    .stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+    
+/*intro*/
+ #we{
+    left: 140px;
+    top: 500px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 45px;
+	color: rgba(27,61,108,1);
+}
+
+
+#Welcome_to_Pipetech {
+	left: 700px;
+	top: 800px;
+	position: absolute;
+	text-align: center;
+	font-weight: 1000;
+	font-size: 45px;
+	color: rgba(27,61,108,1);
+    background-color: white;
+    box-shadow: 0px 10px 30px #242323;
+    border-radius: 50px;
+    padding: 10px 30px; 
+}
+  
+.earth img{
+    width: 1000px;
+    position: absolute;
+    right:0px;
+    top: 450px;
+}
+
+
+/*slider*/
+
+.slider {
+   max-width: 1200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 1000px;
+    left: 400px
+}
+ .card{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 60px;
+    height: 350px;
+    width: 300px;
+    margin: 20px 100px 10px 100px;
+    padding: 50px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.title1,.title4,.title5{
+    padding-bottom: 45px;
+}
+
+.button a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  color: black;
+ background-color: #f1f1f1;
+    
+}
+
+.button a:hover {
+  background-color: rgb(134, 183, 252);
+  color: black;
+  cursor: pointer;
+}
+
+.button .previous {
+  position: absolute;
+  top: 1200px;
+ left: 290px;
+    
+      
+}
+
+.button .next {
+  background-color:#f1f1f1;
+    position: absolute;
+    top: 1200px;
+    left: 1450px;
+}
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px
+}
+
+
+/*about*/
+
+#About_Pipetech {
+	top: 1700px;
+	font-size: 45px;
+}
+#We_aim_high{
+	top: 1800px;
+	font-size: 25px;
+}
+
+.br img{
+    top: 1700px;
+    right: 150px;
+    width: 600px;
+}
+#know{
+	font-size: 35px;
+    top: 2300px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+    #What-we-do {
+	top: 2500px;
+	font-size: 45px;
+}
+#we-are{
+	top: 2600px;
+	font-size: 25px;
+}
+
+.brd img{
+    top: 2500px;
+    right: 150px;
+    width: 600px;
+}
+#know1{
+	font-size: 35px;
+    top: 3000px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+    
+        #What-we-created {
+	top: 3300px;
+	font-size: 45px;
+}
+#we-create{
+	top: 3400px;
+	font-size: 25px;
+}
+
+.brdd img{
+    top: 3200px;
+    right: 150px;
+    width: 600px;
+}
+#know2{
+	font-size: 35px;
+    top: 3700px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+
+/*blue section */
+
+#blues {
+		fill: rgba(27,61,108,1);
+	}
+.blues {
+        position: absolute;
+		top: 4450px;
+}
+
+#Projects {
+	left: 140px;
+	top: 3900px;
+	font-size: 55px;
+}
+
+   .slide {
+   max-width: 1200px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 4100px;
+    left: 400px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 50px;
+    height: 450px;
+    width: 340px;
+    margin: 20px 00px 10px 100px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 50px;
+    height: 250px;
+    width: 400px;
+    margin: 100px 0px 10px 200px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+.grid-container {
+    top: 5000px;
+    }
+    
+    .clients h4{
+        top: 4850px;
+        font-size: 55px;
+    }
+    #know3{
+	font-size: 35px;
+    top: 5700px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+/* footer */
+.footer {
+    height: 550px;
+    position: relative;
+    top: 5900px;
+}
+}

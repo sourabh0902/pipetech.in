@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:0;
+    box-sizing:0;
+}
+ 
+html{
+    background-color: #fff;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    overflow: visible;
+    background: #fafafa url('/pic/pipetech.gif') no-repeat center center;
+    background-size: 400px 400px;
+}
+
+/*main*/
+
+.navbar {
+    background-color: white;
+    position: absolute;
+    right: 13%;
+    list-style-type: none;
+    margin: 285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px 8px 50px -20px black;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 43.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+li a:hover {
+  background-color:#D6E2F0;
+}
+
+.sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}
+
+
+.logo img{
+    height: 190px;
+    margin-left:630px;
+    top: 30px;  
+    position: absolute;
+}
+
+.home {
+    background-color: rgba(27,61,108,1);
+    height: 65px;
+    width: 120px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    -webkit-box-shadow: 0px 8px 50px -20px black;
+    box-shadow: 0px 8px 50px -20px black;
+    position: absolute;
+}
+
+#home_1 {
+	fill: white;
+}
+.home_1 {
+    position:absolute;
+	width: 45px;
+	left: 50px;
+	top: 8px;
+}
+
+.home:hover{
+      background-color:#D6E2F0; 
+}
+#home_1:hover{
+    fill: rgba(27,61,108,1);
+}
+
+.stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+
+
+.pit {
+    position: absolute;
+    height: 67px;
+    width: 130px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    -webkit-box-shadow: 0px 8px 50px -20px black;
+    box-shadow: 0px 8px 50px -20px black;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+    font-weight: 500;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+
+/*intro*/
+
+#we{
+    left: 140px;
+    top: 500px;
+	position: absolute;
+	overflow: visible;
+	text-align: left;
+	font-weight: 1000;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+	z-index: 1;
+	/*font-family: 'Poppins', sans-serif;*/
+}
+
+.earth img{
+    width: 950px;
+    position: absolute;
+    right:0px;
+    top: 450px;
+    z-index: 0;
+}
+
+.mobile_earth img {
+    /*display: none;*/
+    width: 0px;
+}
+
+
+#Welcome_to_Pipetech {
+	/*font-family: 'Rubik', sans-serif;*/
+	left: -40px;
+	top: 826px;
+	position: absolute;
+	white-space: normal;
+	text-align: right;
+	font-weight: 800;
+	font-size: 25px;
+	color: whitesmoke;
+    background-color: #1b3c6d;
+    -webkit-box-shadow: 0px 8px 50px -15px black;
+    box-shadow: 0px 8px 50px -15px black;
+    border-radius: 50px;
+    /*padding-left: 504px;*/
+    /*padding-right: 30px;*/
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    padding: 30px 30px 30px 504px;
+    z-index: 1;
+}
+
+
+/*slider*/
+
+.slider {
+   max-width: 1200px;
+    /*overflow: hidden;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 1000px;
+    left: 250px;
+     z-index: 1;
+}
+ .card{
+    background-color: #1b3c6d;
+    -webkit-box-shadow: 0px 0px 15px #78ffff;
+    box-shadow: 0px 0px 15px #78ffff; 
+    border-radius: 60px;
+    height: 350px;
+    width: 300px;
+    margin: 20px 0px 10px 80px;
+    padding: 50px 20px 0px 40px; 
+    color: whitesmoke; 
+    z-index: 1;
+    border: 4px solid white;
+    }
+
+.title1,.title2,.title3,.title4,.title5,.title6{
+    padding: 0px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.title1,.title4,.title5{
+    padding-bottom: 45px;
+}
+
+.button a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  color: black;
+ background-color: #f1f1f1;
+    
+}
+
+.button a:hover {
+  background-color: rgb(134, 183, 252);
+  color: black;
+  cursor: pointer;
+}
+
+.button .previous {
+    position: absolute;
+    top: 1200px;
+    left: 150px;
+    box-shadow: 4px 4px 0px #7352fc;
+    
+      
+}
+
+.button .next {
+    background-color: white;
+    position: absolute;
+    top: 1200px;
+    left: 1250px;
+    box-shadow: -4px 4px 0px #7352fc;
+}
+
+.button .round {
+  border-radius: 50%;
+    font-size: 40px;
+    border: 3px solid #78ffff;
+}
+
+
+/*about*/
+
+#About_Pipetech {
+	left: 140px;
+	top: 1600px;
+	position: absolute;
+	font-weight: 800;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+#We_aim_high{
+	left: 612px;
+	top: 1719px;
+	position: absolute;
+	width: 650px;
+	font-weight: 500;
+	font-size: 22px;
+	color: rgba(27,61,108,1);
+}
+
+.br img{
+    position: absolute;
+    top: 1703px;
+    right: 1011px;
+    width: 380px;
+}
+#know{
+    position: absolute;
+	font-size: 30px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 0px 5px 20px #292727;
+    box-shadow: 0px 5px 20px #292727;
+   
+    top: 2100px;
+    left: 600px;
+    
+}
+
+.know a{
+    text-decoration: none;
+    color: white;
+}
+
+#know:hover {
+     background-color: rgb(55, 118, 206);
+}
+#What-we-do{
+	left: 140px;
+	top: 2300px;
+	position: absolute;
+	font-weight: 800;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+#we-are{
+	left: 611px;
+	top: 2400px;
+	position: absolute;
+	width: 650px;
+	font-weight: 500;
+	font-size: 23px;
+	color: rgba(27,61,108,1);
+}
+
+.brd img{
+    position: absolute;
+    top: 2405px;
+    right: 1044px;
+    width: 331px;
+}
+#know1{
+    position: absolute;
+	font-size: 30px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 0px 5px 20px #292727;
+    box-shadow: 0px 5px 20px #292727;
+   
+    top: 2700px;
+    left: 600px;
+    
+}
+
+.know1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#know1:hover {
+     background-color: rgb(55, 118, 206);
+}
+
+#What-we-created{
+	left: 140px;
+	top: 2900px;
+	position: absolute;
+	font-weight: 800;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+#we-create {
+	left: 614px;
+	top: 3000px;
+	position: absolute;
+	width: 650px;
+	font-weight: 500;
+	font-size: 23px;
+	color: rgba(27,61,108,1);
+}
+
+.brdd img{
+    position: absolute;
+    top: 2997px;
+    right: 1057px;
+    width: 328px;
+}
+#know2{
+    position: absolute;
+	font-size: 30px;
+    color: white;
+    background-color: rgba(27,61,108,1);
+    border-radius: 70px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 0px 5px 20px #292727;
+    box-shadow: 0px 5px 20px #292727;
+    top: 3300px;
+    left: 600px;
+    
+}
+
+.know2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#know2:hover {
+     background-color: rgb(55, 118, 206);
+}
+
+
+/*blue section */
+
+#blues {
+		fill: rgba(27,61,108,1);
+  position: absolute;
+	}
+.blues {
+        position: absolute;
+ top: 4200px;
+
+}
+
+.grid-container {
+    position: absolute;
+    top: 4700px;
+    left: 50%;
+    transform: translate(-50%);
+  display: grid;
+  grid-gap:150px;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+}
+
+.grid-item {
+  padding:0px 0px 0px 0px;
+}
+
+.grid-item img{
+    width: 170px;
+}
+.clients h4{
+	left: 140px;
+	top: 4500px;
+    margin-top: 000px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+}
+
+#know3{
+    position: absolute;
+	font-size: 30px;
+    color: rgba(27,61,108,1);
+    background-color: white;
+    border-radius: 70px;
+    padding: 10px 25px;
+    -webkit-box-shadow: 0px 5px 20px #292727;
+    box-shadow: 0px 5px 20px #292727;
+    top: 5350px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.know3 a{
+    text-decoration: none;
+}
+
+#know3:hover {
+     background-color: rgb(232, 242, 255);
+}
+
+
+#Projects {
+	left: 140px;
+	top: 3500px;
+    margin-top: 000px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+.slide {
+   max-width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex ;
+    position: absolute;
+    top: 3600px;
+    left: 200px
+}
+ .card1{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 50px;
+    height: 450px;
+    width: 340px;
+    margin: 20px 00px 10px 100px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+ .card2{
+    background-color:white;
+    -webkit-box-shadow: 0px 5px 20px #484747;
+    box-shadow: 0px 5px 20px #484747; 
+    border-radius: 50px;
+    height: 250px;
+    width: 400px;
+    margin: 100px 0px 10px 100px;
+    padding: 20px 10px 0px 10px; 
+    color: rgba(27,61,108,1); 
+    }
+
+.tile1{
+    padding: 40px 15px 0px 70px;
+    font-weight: bolder;
+}
+ .tile1 h2{
+    font-size: 20px;
+    padding: 0px 0px 5px 0px;
+}
+.tile2{
+    padding: 100px 0px 0px 80px;
+    font-weight: bolder;
+}
+ .tile2 h3{
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+.tile1 p1{
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+}
+
+.card1 p{
+    font-size: 19px;
+    padding: 0px 5px 0px 15px;
+}
+.card1 img{ 
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    width: 200px; 
+    border-radius: 100%;
+}
+.card2 p{
+    font-size: 19px;
+    padding: 0px 5px 0px 15px;
+}
+.card2 img{ 
+    position: absolute;
+    top: 250px;
+    width: 200px; 
+    left: 470px;
+
+}
+/* footer */
+.footer {
+    background-color: white;
+    height: 600px;
+    position: relative;
+    top: 5500px;
+
+}

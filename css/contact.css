@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+ 
+html{
+    background-color: #fff;
+    color:#000000;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+
+/*main*/
+
+.navbar {
+    background-color:#ffffff;
+    position:absolute;
+    right: 13%;
+    list-style-type: none;
+    margin:285px 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 10px 20px #afafaf;
+    max-width: 100%;
+    display : -webkit-inline-flex;
+    display : -ms-inline-flex;
+    display : -moz-inline-flex;
+    display : -o-inline-flex;
+    display : -s-inline-flex;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgba(27,61,108,1);
+  text-align: center;
+  padding: 15px 43.3px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+li a:hover {
+  background-color:#D6E2F0;
+}
+
+.sticky{
+    position: fixed;
+    top: -280px;
+    z-index: 100;
+}
+
+
+.logo img{
+    height: 190px;
+    margin-left:630px;
+    top: 30px;  
+    position: absolute;
+}
+
+.active{
+      background-color:rgba(27,61,108,1);
+    color: white;
+    
+}
+
+.home {
+    background-color: white;
+    height: 65px;
+    width: 120px;
+    top:285px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;
+    position: absolute;
+}
+
+#home_1 {
+	fill: rgba(27,61,108,1);
+}
+.home_1 {
+    position:absolute;
+	width: 45px;
+	left: 50px;
+	top: 8px;
+}
+
+.home:hover{
+      background-color:#D6E2F0; 
+}
+#home_1:hover{
+    fill: rgba(27,61,108,1);
+}
+
+.stickyv{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+
+
+.pit {
+    position: absolute;
+    height: 67px;
+    width: 130px;
+    right: 0px;
+    top: 280px;  
+    border-bottom-left-radius:40px;
+    border-top-left-radius: 40px;
+    box-shadow: 5px 10px 20px #afafaf;  
+}
+
+.pit h1{
+    color:rgba(27,61,108,1);
+    font-size: 28px;
+   padding: 15px 25px;
+}
+
+.pit a{
+    text-decoration: none;
+}
+
+.pit:hover {
+     background-color:#D6E2F0;   
+}
+.stickyp {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+    background-color: white;
+    
+}
+/*contact*/
+
+#ping{
+	left: 140px;
+	top: 500px;
+	position: absolute;
+    width: 510px;
+	font-weight: bolder;
+	font-size: 35px;
+	color: rgba(27,61,108,1);
+}
+/*contact*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #ffffff;
+  color: #223f5d;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 340px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #D6E2F0;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 50px;
+  background-color: #223f5d;
+  padding: 0px 0px 10px 0px;
+  width: 800px;
+  margin: 20px 0px;
+}
+h2{
+  color: #ffffff;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+input[type='text'], [type='email'], select {
+	background: #223f5d;
+        border: none;
+	border-bottom: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 10px 0 10px 0;
+	padding: 0 0 20px 0;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+textarea{
+    background: #223f5d;
+            border: none;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+	margin: 20px 40px 20px 40px;
+	padding: 0 0 0 0;
+	width: 710px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.firstname {
+	float: left;
+	width: 40%;
+    margin-left: 40px;
+    
+}
+.lastname{
+        float: right;
+	width: 40%;
+    margin-right: 40px;
+}
+.code{
+        float:left;
+        width: 25%;
+     margin-left: 40px;
+}
+.telephone{
+        float:right;
+        width: 60%;
+    margin-right: 40px;
+}
+.email{
+     margin: 0px 40px;
+}
+.cont{
+    position: absolute;
+    top: 850px;
+    left: 350px;
+}
+
+.red{
+    position: absolute;
+    right:90px;
+    top:500px;
+}
+.red img{
+    width: 500px;
+}
+
+#Global{
+	left: 150px;
+    top: 1580px;
+    position: absolute;
+	width: 350px;
+	height: 155px;
+	font-weight: bolder;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+} 
+.contac img{
+    position: absolute;
+    left: -70px;
+    top:  0px;
+    width: 40px;
+}
+
+#_hrpipetech {
+	left: 700px;
+    top: 1580px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+
+.conss img{
+    position: absolute;
+    left: -60px;
+    top:  0px;
+    width: 35px;
+}
+
+.call1 img{
+    position: absolute;
+    left: -65px;
+    top:  0px;
+    width: 40px;
+}
+
+#call {
+    top: 0px;
+	left: 400px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 250px;
+	color:rgba(27,61,108,1) ;
+}
+
+#not{
+	left: 140px;
+	top: 2100px;
+	position: absolute;
+    width: 280px;
+	font-weight: bolder;
+	font-size: 30px;
+	color: rgba(27,61,108,1);
+}
+#londonadd{
+	left: 650px;
+    top: 2100px;
+    width: 270px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+#call2 {
+    top: 0px;
+	left: 500px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+    width: 250px;
+	color:rgba(27,61,108,1) ;
+}
+
+#formore{
+    left: 600px;
+    top: 2300px;
+    width: 400px;
+	position: absolute;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(27,61,108,1);
+}
+#formore a{
+    text-decoration: none;
+    color: rgba(27,61,108,1);
+}
+#formore a:hover{
+    color: royalblue;
+    font-size: 17px;
+}
+
+/* footer */
+.footer {
+    height: 600px;
+    position: relative;
+    top: 2400px;
+
+}
+
